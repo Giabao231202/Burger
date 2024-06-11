@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Giabao's Burgers</title>
+</head>
+<body>
+    <h1>
+        GiaBao's BURGERS
+    </h1>
+    <h2>Create a burger!</h2>
+    <div class="mainForm">
+        <form>
+            <p>What type of protein would you like?</p>
+         <input type="text" name = "protein">
+         <br>
+         <p>How many patties would you like?</p>
+         <input type="text" name="patties">
+        </form>
+    
+       How do you want a patties cooked
+      <div class="sliecontainer">
+Rare<input type="range" min="rare" max="well-done" class="slider" id="myRange"> Well-done
+    </div>
+    What topping would you like?
+    <form>
+        <input type="checkbox" name="lettuce" value="yes">
+        Lettuce &nbsp;&nbsp;&nbsp;&nbsp; 
+        <input type="checkbox" name="Tomato" value="yes">
+        Tomato &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="Onion" value="yes">
+        Onion
+    </form>
+    Would you like to add cheese?
+    <form>
+        <input type="radio" name="lettuce" value="yes">
+        Yes &nbsp;&nbsp;&nbsp;&nbsp; 
+        <input type="radio" name="Tomato" value="yes">
+        No &nbsp;&nbsp;&nbsp;&nbsp;
+    </form>
+    <p>What type of bun would you like?</p>
+    <form>
+        <select name="size" size="1">
+            <option value="big">Big</option>
+            <option value="Medium">Medium</option>
+            <option value="Small">Small</option>
+        </select>
+    </form>
+    <form>
+        <p>What type of protein would you like?</p>
+        <input type="text" name = "protein">
+    </form>
+    Anything else you want to add?
+    <form>
+        <textarea name="message" row="3" cols="40"></textarea>
+    </form>
+    <br>
+    <button type="submit" class="ok_button">OK</button>
+    </div>
+</body>
+</html>
